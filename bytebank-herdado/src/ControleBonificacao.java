@@ -4,6 +4,8 @@ public class ControleBonificacao {
     public void registra(Funcionario funcionario) {
         this.soma += funcionario.getBonificacao();
     }
+
+    //teste
     public double getSoma() {
         return soma;
     }

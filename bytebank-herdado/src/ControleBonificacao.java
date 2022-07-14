@@ -5,7 +5,7 @@ public class ControleBonificacao {
         this.soma += funcionario.getBonificacao();
     }
 
-    //teste
+
     public double getSoma() {
         return soma;
     }

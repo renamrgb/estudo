@@ -1,11 +1,11 @@
 public class EditorVideo extends Funcionario {
 
-    private final double BONIFICACAO = 100l;
+    private final double BONIFICACAO = 100;
 
 
     @Override
     public double getBonificacao() {
-        return super.getBonificacao() + BONIFICACAO;
+        return  BONIFICACAO;
     }
 
 }
